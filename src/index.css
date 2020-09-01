@@ -1,13 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+/* colors */
+/* 
+dark peacock: #043133
+peachock: #095C60
+light: #F1F1E6
+orange: #FF8945
+teal: #97DDE1 */
+
+/* Dust Palette */
+/* 
+peacock: #095C60
+light grey green: #94B0B2
+mid grey green: #617C7D
+lavender: #8181A8 */
+
 body {
+  font-family: 'EB Garamond', serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #002C30;
+  /* background-color: #F1F1E6; */
+  height: 100%;
+}
+
+.light-text p, .light-text h3{
+  color: #c5dbdd;
+}
+
+h3 {
+  color: #001c1f;
+}
+
+p {
+  color: #001c1f;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sans-text {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.page {
+  min-height: 100vh;
 }

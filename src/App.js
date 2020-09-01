@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import 'materialize-css/dist/css/materialize.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Welcome from './containers/Welcome/Welcome';
+import Quote from './containers/Quote/Quote';
+import Labyrinth from './containers/Labyrinth/Labyrinth';
+import About from './containers/About/About';
+import Contact from './containers/Contact/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = {
+    }
+
+  render(){
+    return (
+      <Router>
+        <div className="App">
+          <Navbar/>
+          <Welcome/>
+          <Quote/>
+          <About/>
+          <Quote/>
+          <Labyrinth/>
+          <Contact/>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

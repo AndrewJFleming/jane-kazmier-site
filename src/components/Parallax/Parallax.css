@@ -1,0 +1,21 @@
+.parallax {
+    position: relative;
+    text-align: center;
+    background-image: linear-gradient(rgb(255, 255, 255), black, black);
+  }
+
+.parallax img {
+    opacity: 0.6!important;
+}
+
+.parallax h2 {
+    color: #e5f0f1!important;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
