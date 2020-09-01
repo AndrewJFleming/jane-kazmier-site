@@ -13,7 +13,7 @@ class Slider extends Component {
                 <div className="slider">
                     <ul className="slides">
                         <li>
-                            <img src="assets/marrowstone-lab.jpeg" alt="slide 1"/>
+                            <img src="https://ajf-general-images.s3-us-west-2.amazonaws.com/marrowstone.jpg" alt="slide 1"/>
                             <div className="caption center-align">
                                 <h3 className="light grey-text text-lighten-3">Title 1</h3>
                                 <h5 className="light grey-text text-lighten-3">
@@ -22,7 +22,7 @@ class Slider extends Component {
                             </div>
                         </li>
                         <li>
-                            <img src="assets/construction.jpg" alt="slide 2"/>
+                            <img src="https://ajf-general-images.s3-us-west-2.amazonaws.com/construction1.jpg" alt="slide 2"/>
                             <div className="caption center-align">
                                 <h3 className="light grey-text text-lighten-3">Title 2</h3>
                                 <h5 className="light grey-text text-lighten-3">
@@ -31,7 +31,7 @@ class Slider extends Component {
                             </div>
                         </li>
                         <li>
-                            <img src="assets/finished-lab.jpg" alt="slide 3"/>
+                            <img src="https://ajf-general-images.s3-us-west-2.amazonaws.com/finished1.jpg" alt="slide 3"/>
                             <div className="caption center-align">
                                 <h3 className="light grey-text text-lighten-3">Title 3</h3>
                                 <h5 className="light grey-text text-lighten-3">

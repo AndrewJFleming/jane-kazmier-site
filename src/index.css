@@ -16,9 +16,12 @@ light grey green: #94B0B2
 mid grey green: #617C7D
 lavender: #8181A8 */
 
+
 body {
   font-family: 'EB Garamond', serif;
   margin: 0;
+  background-image: url("https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/bird-BG-threshold-opacity.png");
+  background-repeat: repeat;
   background-color: #002C30;
   /* background-color: #F1F1E6; */
   height: 100%;

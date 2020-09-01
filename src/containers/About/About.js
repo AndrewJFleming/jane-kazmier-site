@@ -1,7 +1,5 @@
 import React from 'react';
-import Parallax from '../../components/Parallax/Parallax';
 import './About.css';
-import Slider from '../../components/Slider/Slider';
 
 const About = (props) => {
   return (
@@ -14,7 +12,7 @@ const About = (props) => {
                 <div className="col s12 m4">
                   <div className="card">
                       <div className="card-image">
-                          <img src="assets/jane-portrait.jpg"/>
+                          <img src="https://ajf-general-images.s3-us-west-2.amazonaws.com/portrait.jpg" alt="portrait"/>
                           {/* <span class="card-title">Card Title</span> */}
                       </div>
                   </div>

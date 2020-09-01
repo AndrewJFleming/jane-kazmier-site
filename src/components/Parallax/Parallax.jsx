@@ -13,7 +13,7 @@ class Parallax extends Component {
         return (
             <div className="parallax-container">
                 <div className="parallax">
-                    <img src="assets/espalier.jpg" alt="parallax_1" style={{opacity: 0.5}}/>
+                    <img src="https://ajf-general-images.s3-us-west-2.amazonaws.com/home.jpg" alt="parallax_1" style={{opacity: 0.5}}/>
                     <h2 className="centered">Welcome</h2>
                 </div>
             </div>
