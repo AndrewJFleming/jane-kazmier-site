@@ -2,13 +2,20 @@
     margin-bottom: 5em;
 }
 
-.light-BG {
+.red-BG {
     background-color: #ffffffa2;
+    padding: 10px 20px;
 }
 
 .light-BG {
+    background-color: #ffffffa2;
     padding: 10px 20px;
 }
+
+.light-BG2 {
+    background-color: #c5dbdd;
+}
+
 /* 
 .section-wrapper {
     margin-bottom: 100px;

@@ -14,24 +14,26 @@ teal: #97DDE1 */
 peacock: #095C60
 light grey green: #94B0B2
 mid grey green: #617C7D
-lavender: #8181A8 */
+lavender: #8181A8 
+brick: #872200 */
 
 
 body {
   font-family: 'EB Garamond', serif;
   margin: 0;
   background-image: url("https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/bird-BG-threshold-opacity.png");
-  background-repeat: repeat;
+  background-repeat: space;
   background-color: #002C30;
   /* background-color: #F1F1E6; */
   height: 100%;
+  color: #001c1f;
 }
 
-.light-text p, .light-text h3{
+.light-text p, .light-text h3 {
   color: #c5dbdd;
 }
 
-h3 {
+h1, h2, h3, h4, h5, h6 {
   color: #001c1f;
 }
 
@@ -40,8 +42,20 @@ p {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.serif-text {
+  font-family: 'EB Garamond', serif;
+}
+
 .sans-text {
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer-text {
+  color: #001c1f!important;
 }
 
 code {

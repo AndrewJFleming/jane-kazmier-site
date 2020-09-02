@@ -1,21 +1,28 @@
-import React from 'react';
-import Parallax from '../../components/Parallax/Parallax';
-import './Contact.css';
-import Slider from '../../components/Slider/Slider';
+import React, { Component } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+import M from "materialize-css";
+import './Footer.css';
 
-const Contact = (props) => {
-  return (
-    
-      <div id="contact" class="container light-BG">
-        <div class="row">
+class Footer extends Component {
+
+    // componentDidMount() {
+    //     let elements = document.querySelectorAll(".sidenav");
+    //     M.Sidenav.init(elements);
+    // }
+
+    render() {
+        return (
+            <footer className="page-footer dark-text">
+                <div  id="contact" className="container">
+                <div className="row">
             <h4 className="text-center">Contact</h4>
             <div className="divider"></div>
             <div className="section">
                 <div className="row">
                     <div className="col s12 m8">
                         <div className="card horizontal light-BG2">
-                            <div className="card-image">
-                                <img src="https://lorempixel.com/200/330/nature/6"/>
+                            <div className="card-image" style={{height: "100%"}}>
+                                <img src="https://lorempixel.com/200/430/nature/6"/>
                             </div>
                             <div className="card-stacked">
                                 <div className="card-content">
@@ -64,9 +71,42 @@ const Contact = (props) => {
                 </div>
             </div>
       </div>
-    </div>
-  );
+                </div>
+                <div className="footer-text footer-copyright">
+                    <div className="container">
+                        © 2014 Copyright Text
+                        <a className="footer-text right" href="#!">More Links</a>
+                    </div>
+                </div>
+            </footer>
+        )
+    }
 }
 
+export default Footer;
 
-export default Contact;
+            // <footer class="page-footer">
+            //     <div class="container">
+            //         <div class="row">
+            //             <div class="col l6 s12">
+            //                 <h5 class="white-text">Footer Content</h5>
+            //                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            //             </div>
+            //             <div class="col l4 offset-l2 s12">
+            //                 <h5 class="white-text">Links</h5>
+            //                 <ul>
+            //                     <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            //                     <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            //                     <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            //                     <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            //                 </ul>
+            //             </div>
+            //         </div>
+            //     </div>
+            //     <div class="footer-copyright">
+            //         <div class="container">
+            //             © 2014 Copyright Text
+            //             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            //         </div>
+            //     </div>
+            // </footer>
