@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de87e7f7ff1b81f297906e77ffcc0e58",
+    "revision": "ecc35dd176e7c3a718ec523779828378",
     "url": "/jane-kazmier-site/index.html"
   },
   {
-    "revision": "3017dcf681d915e4f9af",
-    "url": "/jane-kazmier-site/static/css/2.0e00043b.chunk.css"
+    "revision": "efda569b1fb3d48853dc",
+    "url": "/jane-kazmier-site/static/css/2.0f36ff33.chunk.css"
   },
   {
-    "revision": "b864d79325c965615956",
-    "url": "/jane-kazmier-site/static/css/main.ad9a6122.chunk.css"
+    "revision": "b5c1f3916ca8d0909f7a",
+    "url": "/jane-kazmier-site/static/css/main.bb26d125.chunk.css"
   },
   {
-    "revision": "3017dcf681d915e4f9af",
+    "revision": "efda569b1fb3d48853dc",
     "url": "/jane-kazmier-site/static/js/2.3804648d.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jane-kazmier-site/static/js/2.3804648d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b864d79325c965615956",
-    "url": "/jane-kazmier-site/static/js/main.abc0b50a.chunk.js"
+    "revision": "b5c1f3916ca8d0909f7a",
+    "url": "/jane-kazmier-site/static/js/main.5e0f3651.chunk.js"
   },
   {
     "revision": "1a7f88c32b4107806a18",
