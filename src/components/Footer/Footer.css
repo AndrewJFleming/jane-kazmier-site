@@ -1,0 +1,13 @@
+.logo {
+    padding: 3px;
+}
+
+.contact-card {
+    background-color: #ffffff81;
+}
+
+@media screen and (max-width: 392px) {
+    .bird {
+        display: none;
+    }
+  }

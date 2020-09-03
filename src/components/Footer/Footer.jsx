@@ -19,50 +19,27 @@ class Footer extends Component {
             <div className="divider"></div>
             <div className="section">
                 <div className="row">
-                    <div className="col s12 m8">
-                        <div className="card horizontal light-BG2">
-                            <div className="card-image" style={{height: "100%"}}>
-                                <img src="https://lorempixel.com/200/430/nature/6"/>
+                    <div className="col s12 m8 l7 xl5">
+                        <div className="card horizontal contact-card">
+                            <div className="card-image bird">
+                                <img src="https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/bird-watercolor-red-contrast-small.jpg"/>
                             </div>
                             <div className="card-stacked">
                                 <div className="card-content">
-                                    <h5>JANE FLEMING|MPM</h5>
-                                    <h6>Grief Support Counselor|Providence Hospice of Seattle<br/>
+                                    <h5>Jane Fleming</h5>
+                                    <h6>Spiritual Director<br/>
                                     2811 South 102nd Street|Suite 220<br/>
                                     Tukwila WA 98168<br/>
-                                    jane.fleming@providence.org<br/>
-                                    T: 206.749.7704<br/>
-                                    C: 206.310.2463<br/>
-                                    www.providence.org/hospiceofseattle</h6><br/>
-                                    <h6>I am in the office Monday through Thursday and every other Friday, 8:00-4:30</h6>
-                                    <h6>Transforming the care of all people facing serious illness, death and grief</h6>
+                                    jane.fleming@seanet.com<br/>
+                                    C: 206.310.2463</h6><br/>
+                                    {/* <h6>I am in the office Monday through Thursday and every other Friday, 8:00-4:30</h6>
+                                    <h6>Transforming the care of all people facing serious illness, death and grief</h6> */}
                                 </div>
                             </div>
                         </div>
-                        {/* <card>
-                            <h5>JANE FLEMING|MPM</h5>
-                            <h6>Grief Support Counselor|Providence Hospice of Seattle<br/>
-                            2811 South 102nd Street|Suite 220<br/>
-                            Tukwila WA 98168<br/>
-                            jane.fleming@providence.org<br/>
-                            T: 206.749.7704<br/>
-                            C: 206.310.2463<br/>
-                            www.providence.org/hospiceofseattle<br/><br/>
-                            I am in the office Monday through Thursday and every other Friday, 8:00-4:30<br/>
-                            Transforming the care of all people facing serious illness, death and grief</h6>
-                        </card> */}
-                        {/* <ul className="collection with-header light-BG2">
-                            <li className="collection-header">
-                                <h5>Jane Fleming</h5>
-                                <h6>Certification</h6>
-                            </li>
-                            <li className="collection-item sans-text">Phone</li>
-                            <li className="collection-item sans-text">Email</li>
-                            <li className="collection-item sans-text">etc.</li>
-                        </ul> */}
                     </div>
 
-                    <div className="col s12 m4">
+                    <div className="col s12 m4 l5 xl7">
                         <div className="section-wrapper">
                             <p>Purus in mollis nunc sed id.  Varius duis at consectetur lorem. Purus in mollis nunc sed id.</p>
                             <p>Varius duis at consectetur lorem. Purus in mollis nunc sed id.</p>

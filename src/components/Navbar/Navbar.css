@@ -2,6 +2,16 @@ nav {
     background-color: #872200!important;
 }
 
+.logo {
+    padding-top: 8px!important;
+    padding-left: 8px!important;
+}
+
+.brand-text {
+    display: inline-block;
+    font-size: 2.1rem!important;
+}
+
 li a {
     font-family: 'Noto Sans JP', sans-serif!important;
 }

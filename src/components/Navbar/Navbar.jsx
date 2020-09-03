@@ -16,7 +16,8 @@ class Navbar extends Component {
                 <nav>
                     <div className="nav-wrapper">
                         {/* <Link smooth to="#section1"> */}
-                            <a className="brand-logo link-color">Jane Kazmier</a>
+                        <img className=".brand-logo.left link-color logo" src="https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/bird-icon-simplify-trans-border.png" style={{maxWidth: "70px"}}/>
+                            {/* <a className="brand-logo link-color">Jane Kazmier</a> */}
                         {/* </Link> */}
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons link-color">menu</i></a>
                         <ul className="right hide-on-med-and-down">

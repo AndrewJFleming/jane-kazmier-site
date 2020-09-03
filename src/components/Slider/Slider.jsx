@@ -5,28 +5,36 @@ class Slider extends Component {
     state = {
         slides: [
             {
+                src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/marrowstone-lab-construction.jpg',
+                alt: 'marrowstone labyrinth construction'            
+            },
+            {
                 src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/marrowstone.jpg',
-                alt: 'slide 1'
+                alt: 'marrowstone labyrinth'
             },
             {
                 src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/construction1.jpg',
-                alt: 'slide 2'            
+                alt: 'st anne labyrinth construction'            
             },
             {
                 src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/finished1.jpg',
-                alt: 'slide 3'     
+                alt: 'st anne labyrinth fin'     
             },
             {
                 src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/weaving-a.jpg',
-                alt: 'slide 4'     
+                alt: 'green weaving'     
             },
             {
-                src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/weaving-b1.jpg',
-                alt: 'slide 5'   
+                src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/weaving-espalier.jpg',
+                alt: 'green weaving espalier'   
             },
             {
-                src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/weaving-b2.jpg',
-                alt: 'slide 6'            
+                src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/basket-flower.jpg',
+                alt: 'basket with flower'     
+            },
+            {
+                src: 'https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/basket.jpg',
+                alt: 'basket'   
             }
         ]
     }
