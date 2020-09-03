@@ -1,14 +1,14 @@
 import React from 'react';
 import Parallax from '../../components/Parallax/Parallax';
-import './Labyrinth.css';
+import './Portfolio.css';
 import Slider from '../../components/Slider/Slider';
 
 const Labyrinth = (props) => {
   return (
     
-      <div id="labyrinth" className="container light-BG">
+      <div id="portfolio" className="container light-BG">
         <div className="row">
-          <h4 className="text-center">Labyrinth</h4>
+          <h4 className="text-center">Portfolio</h4>
           <div className="divider"></div>
           <div className="section">
             <div className="row">

@@ -29,7 +29,9 @@ body {
   color: #001c1f;
 }
 
-.light-text p, .light-text h3 {
+.light-text p, 
+.light-text h2,
+.light-text h3 {
   color: #c5dbdd;
 }
 

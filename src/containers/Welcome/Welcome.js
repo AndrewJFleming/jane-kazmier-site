@@ -10,8 +10,9 @@ const Welcome = (props) => {
             <Parallax/>
           </div>
           <div className="section-wrapper light-BG">
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis urna cursus eget nunc. Pharetra vel turpis nunc eget lorem dolor sed viverra ipsum. Curabitur gravida arcu ac tortor. Facilisis sed odio morbi quis. Viverra ipsum nunc aliquet bibendum. Nec ultrices dui sapien eget mi. Metus vulputate eu scelerisque felis imperdiet. Orci phasellus egestas tellus rutrum tellus pellentesque. Porttitor lacus luctus accumsan tortor posuere ac. Quam id leo in vitae turpis massa sed. Morbi tristique senectus et netus et malesuada fames.</p>
+            <h3>Spiritual Companioning/Direction</h3>
+            <p>Being. Belonging. Relationship. Transformation. Consciousness. Knowing. Love.</p>
+            <p>As human beings we are continually growing and changing, giving and receiving, acquiring and letting go. The longer we live, the richer the compost of our lives. We experience times of abundance or emptiness, or find ourselves somewhere on the continuum. We are relational beings and we each have a story to be known. Through the art of listening, the spiritual companion can be a witness to the story.</p>          
           </div>
       </div>
     </React.Fragment>

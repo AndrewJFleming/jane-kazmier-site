@@ -32,8 +32,8 @@ class Navbar extends Component {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link smooth to="#labyrinth">
-                                        <a className="link-color">Labyrinth</a>
+                                    <Link smooth to="#portfolio">
+                                        <a className="link-color">Portfolio</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -52,8 +52,8 @@ class Navbar extends Component {
                     <Link smooth to="#about">
                         <li><a>About</a></li>
                     </Link>
-                    <Link smooth to="#labyrinth">
-                        <li><a>Labyrinth</a></li>
+                    <Link smooth to="#portfolio">
+                        <li><a>Portfolio</a></li>
                     </Link>
                     <Link smooth to="#contact">
                         <li><a>Contact</a></li>
