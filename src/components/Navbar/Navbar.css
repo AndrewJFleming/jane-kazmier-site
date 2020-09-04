@@ -8,14 +8,21 @@ nav {
 }
 
 .brand-text {
-    display: inline-block;
-    font-size: 2.1rem!important;
+    padding-left: 8px!important;
 }
 
 li a {
     font-family: 'Noto Sans JP', sans-serif!important;
 }
 
-.link-color {
-    color: #c5dbdd!important;
+@media screen and (max-width: 992px) {
+    .brand-text {
+        padding-left: 0px!important;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .brand-text {
+        display: none!important;
+    }
 }

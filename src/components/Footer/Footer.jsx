@@ -5,11 +5,6 @@ import './Footer.css';
 
 class Footer extends Component {
 
-    // componentDidMount() {
-    //     let elements = document.querySelectorAll(".sidenav");
-    //     M.Sidenav.init(elements);
-    // }
-
     render() {
         return (
             <footer className="page-footer dark-text">
@@ -27,13 +22,9 @@ class Footer extends Component {
                             <div className="card-stacked">
                                 <div className="card-content">
                                     <h5>Jane Fleming</h5>
-                                    <h6>Spiritual Director<br/>
-                                    2811 South 102nd Street|Suite 220<br/>
-                                    Tukwila WA 98168<br/>
-                                    jane.fleming@seanet.com<br/>
-                                    C: 206.310.2463</h6><br/>
-                                    {/* <h6>I am in the office Monday through Thursday and every other Friday, 8:00-4:30</h6>
-                                    <h6>Transforming the care of all people facing serious illness, death and grief</h6> */}
+                                    <h6>Spiritual Companion/Director</h6>
+                                    <h6><a className="link-color" href="mailto:janefleming@seanet.com">janefleming@seanet.com</a><br/>
+                                    <a className="link-color" href="tel:206.930.0460">206.930.0460</a></h6>
                                 </div>
                             </div>
                         </div>
@@ -41,8 +32,23 @@ class Footer extends Component {
 
                     <div className="col s12 m4 l5 xl7">
                         <div className="section-wrapper">
-                            <p>Purus in mollis nunc sed id.  Varius duis at consectetur lorem. Purus in mollis nunc sed id.</p>
-                            <p>Varius duis at consectetur lorem. Purus in mollis nunc sed id.</p>
+                            <ul className="bulleted-list">
+                                <li>
+                                    <p>I am available for individual spiritual direction and would love to talk with you about this possibility.</p>
+                                </li>
+                                <li>
+                                    <p>I am an experienced retreat facilitator and have also facilitated small group spiritual direction.</p>
+                                </li>
+                                <li>
+                                    <p>I am a seasoned grief and loss counselor, and I have worked extensively with parents who have experienced the death of a child.</p>
+                                </li>
+                                <li>
+                                    <p>I lead a weekly Centering Prayer group – contact me for time and place.</p>
+                                </li>
+                            </ul>
+                            <p><span className="italic">“I went to see Jane once a month and she was immensely helpful, mostly by giving me confidence in my own spiritual perceptions”.</span></p>
+                            <p>Please call or email me.<br/>
+                            I offer an initial visit with no charge to see if journeying together feels like a fit. I base my fee on a sliding scale – please contact me to discuss this.</p>
                         </div>
                     </div>
                 </div>
@@ -51,8 +57,7 @@ class Footer extends Component {
                 </div>
                 <div className="footer-text footer-copyright">
                     <div className="container">
-                        © 2014 Copyright Text
-                        <a className="footer-text right" href="#!">More Links</a>
+                        <a className="footer-text" href="#!">© 2020 Jane Fleming</a>
                     </div>
                 </div>
             </footer>
@@ -61,6 +66,8 @@ class Footer extends Component {
 }
 
 export default Footer;
+
+              
 
             // <footer class="page-footer">
             //     <div class="container">

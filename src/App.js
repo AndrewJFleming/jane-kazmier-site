@@ -7,11 +7,12 @@ import Welcome from './containers/Welcome/Welcome';
 import Quote from './containers/Quote/Quote';
 import Portfolio from './containers/Portfolio/Portfolio';
 import About from './containers/About/About';
-import Contact from './containers/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 class App extends Component {
     state = {
+      quote1: "You are an artist of people’s souls",
+      quote2: "We are all on the journey"
     }
 
   render(){
@@ -20,9 +21,9 @@ class App extends Component {
         <div className="App">
           <Navbar/>
           <Welcome/>
-          <Quote/>
+          <Quote quote={this.state.quote1}/>
           <About/>
-          <Quote/>
+          <Quote quote={this.state.quote2}/>
           <Portfolio/>
           {/* <Contact/> */}
           <Footer/>

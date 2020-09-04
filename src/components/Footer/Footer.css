@@ -1,9 +1,22 @@
-.logo {
-    padding: 3px;
-}
-
 .contact-card {
     background-color: #ffffff81;
+}
+
+.link-color {
+    color: #872200!important;
+}
+
+.bulleted-list {
+    margin-left: 20px;
+}
+
+.bulleted-list li {
+    list-style-type: initial!important;
+    color: #002C30;
+}
+
+.footer-text {
+    text-align: center;
 }
 
 @media screen and (max-width: 392px) {

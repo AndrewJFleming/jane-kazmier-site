@@ -10,7 +10,7 @@ const About = (props) => {
             <div className="section">
               <div className="row">
                 <div className="col s12 m3">
-                  <img className="portait" src="https://ajf-general-images.s3-us-west-2.amazonaws.com/portrait.jpg" alt="portrait"/>
+                  <img className="portait" src="https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/Jane+Fleming88.jpg" alt="portrait"/>
                   <p className="flow-text serif-text"><span className="italic">Make everything in you an ear, each atom of your being, and you will hear at every moment what the Source is whispering to you.</span><br/><span style={{fontSize: "95%"}}>- Rumi</span></p>
                 </div>
                 <div className="col s12 m7 offset-m1">

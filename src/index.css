@@ -31,7 +31,8 @@ body {
 
 .light-text p, 
 .light-text h2,
-.light-text h3 {
+.light-text h3,
+.nav-link-color {
   color: #c5dbdd;
 }
 
