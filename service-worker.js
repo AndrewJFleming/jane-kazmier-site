@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jane-kazmier-site/precache-manifest.a993ca838ba32d3258ea7fc983349a44.js"
+  "/jane-kazmier-site/precache-manifest.d27ea254e3ad2a6ef1224fcfe274c8fe.js"
 );
 
 self.addEventListener('message', (event) => {
