@@ -17,12 +17,13 @@ mid grey green: #617C7D
 lavender: #8181A8 
 brick: #872200 */
 
-
 body {
   font-family: 'EB Garamond', serif;
   margin: 0;
   background-image: url("https://ajf-general-images.s3-us-west-2.amazonaws.com/jane-k/bird-BG-threshold-opacity.png");
   background-repeat: space;
+  background-size: 50%;
+  background-position: center;
   background-color: #002C30;
   /* background-color: #F1F1E6; */
   height: 100%;
@@ -31,9 +32,13 @@ body {
 
 .light-text p, 
 .light-text h2,
-.light-text h3,
-.nav-link-color {
-  color: #c5dbdd;
+.light-text h3 {
+  color: #c5dbdd!important;
+}
+
+.nav-link-color,
+.brand-text {
+  color: #e2edee!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,4 +73,10 @@ code {
 
 .page {
   min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-size: 100%;
+  }
 }
